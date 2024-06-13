@@ -17,7 +17,7 @@ function adicionar(){
     // Recuperar e separar valor e nome
     let valorUnitarioProduto = produto.split('R$')[1];
     let nomeProduto = produto.split('-')[0];
-    // Calcular o preco, o nosso subtotal
+    // Calcular o preco
     let valorSomaProduto = valorUnitarioProduto * quantidadeProduto;
     // Adicionar produto no carrinho
     let listaProdutos = document.getElementById('lista-produtos');
